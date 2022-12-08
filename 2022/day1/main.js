@@ -12,4 +12,4 @@ let totalCalories = elves.map(x => {                    // Iterates over the elv
 })
 
 //Part One Solution:
-return totalCalories
+return Math.max(...totalCalories)
